@@ -1,0 +1,21 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server --open"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.3",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "npm": "^6.14.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
