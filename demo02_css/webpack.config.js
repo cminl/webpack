@@ -24,7 +24,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({ // 自动生成html
             filename: "index.html",
-            template: "./src/index.html"
+            template: "./index.html"
         }),
         new MiniCssExtractPlugin({
             filename: "style/[name].css"
